@@ -24,7 +24,7 @@ export default function Register() {
         try {
             const response = await api.post('ongs', data)
 
-            alert(`Seu IDde acesso: ${response.data.id}`)
+            alert(`Sua ID de acesso: ${response.data.id}`)
 
             history.push('/')
         }   catch (err) {
