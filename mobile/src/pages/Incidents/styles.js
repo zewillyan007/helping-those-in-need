@@ -27,19 +27,19 @@ export default StyleSheet.create({
     title: {
         fontSize: 30,
         marginBottom: 16,
-        marginTop: 30,
+        marginTop: 20,
         color: '#13131a',
         fontWeight: 'bold',
     },
 
     description: {
         fontSize: 16,
-        lineHeight: 24,
+        lineHeight: 18,
         color: '#737380'
     },
 
     incidentList: {
-        marginTop: 32,
+        marginTop: 25,
     },
 
     incident: {
@@ -56,7 +56,7 @@ export default StyleSheet.create({
     },
 
     incidentValue: {
-        marginTop: 8,
+        marginTop: 0,
         fontSize: 15,
         marginBottom: 24,
         color: '#737380'

@@ -19,18 +19,18 @@ export default StyleSheet.create({
         borderRadius: 8,
         backgroundColor: '#FFF',
         marginBottom: 16,
-        marginTop: 48,
+        marginTop: 25,
     },
 
     incidentProperty: {
         fontSize: 14,
         color: '#41414d',
         fontWeight: 'bold',
-        marginTop: 24,
+        marginTop: 10,
     },
 
     incidentValue: {
-        marginTop: 8,
+        marginTop: 0,
         fontSize: 15,
         color: '#737380',
     },
