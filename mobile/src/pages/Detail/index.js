@@ -1,7 +1,7 @@
 import React from 'react'
 import { Feather } from '@expo/vector-icons'
 import { useNavigation, useRoute } from '@react-navigation/native'
-import { View, Text, FlatList, Image, TouchableOpacity, Linking } from 'react-native'
+import { View, Text, Image, TouchableOpacity, Linking } from 'react-native'
 import * as MailComposer from 'expo-mail-composer'
 
 import logoIng from '../../assets/logo.png'
