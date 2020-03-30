@@ -46,7 +46,7 @@ export default function NewIncident() {
                     <img src={logoImg} alt="Be The Hero" />
 
                     <h1>Cadastrar novo caso</h1>
-                    <p>Descreva o caso detalhadamente para encontar um herói para resolver isso.</p>
+                    <p>Descreva o caso  com detalhes, porém de forma objetiva para encontar um herói.</p>
 
                     <Link className="back-link" to ="/profile">
                         <FiArrowLeft size={16} color="#E02041" />
@@ -62,7 +62,7 @@ export default function NewIncident() {
                     />
                     
                     <textarea 
-                        placeholder="Descrição"
+                        placeholder="Descrição objetiva"
                         value={description}
                         onChange={e=>setDescription(e.target.value)}
                     />
