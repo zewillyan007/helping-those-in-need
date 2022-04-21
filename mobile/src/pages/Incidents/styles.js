@@ -1,14 +1,13 @@
 import {StyleSheet} from 'react-native'
 import Constants from 'expo-constants'
-import { Header } from 'react-native/Libraries/NewAppScreen'
 
 export default StyleSheet.create({
     container: {
         flex: 1,
         paddingHorizontal: 24,
-        paddingTop: Constants.statusBarHeight + 20,        
+        paddingTop: Constants.statusBarHeight + 20,
     },
-
+    
     header: {
         flexDirection: 'row',
         justifyContent: 'space-between',
@@ -72,5 +71,5 @@ export default StyleSheet.create({
         color:'#e02041',
         fontSize: 15,
         fontWeight: 'bold'
-    },
+    }
 })

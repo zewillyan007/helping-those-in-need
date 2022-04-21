@@ -2,15 +2,9 @@
   "expo": {
     "name": "Be The Hero",
     "slug": "bethehero",
-    "privacy": "public",
-    "sdkVersion": "36.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icone.png",
     "splash": {
       "image": "./assets/splas.png",
       "resizeMode": "contain",
@@ -23,11 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.JW.BeTheHero"
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.JW.BeTheHero"
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
