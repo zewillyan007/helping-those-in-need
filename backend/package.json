@@ -13,7 +13,7 @@
     "@vscode/sqlite3": "^5.0.8",
     "cors": "^2.8.5",
     "express": "^4.17.3",
-    "knex": "^1.0.7"
+    "knex": "^2.4.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
